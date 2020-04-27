@@ -7,7 +7,6 @@ it is very easy and intuitive to use
 
 You can use arguments in **String, Int, Float and Double**
 
-`
     FileManager fm;
 
     void Start () {
@@ -27,4 +26,3 @@ You can use arguments in **String, Int, Float and Double**
         Debug.Log(fm.getInt("test.Int"));      //Output: 1234
         Debug.Log(fm.getFloat("test.Float"));  //Output: 1234.5
     }  
-`
