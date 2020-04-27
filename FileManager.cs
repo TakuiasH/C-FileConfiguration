@@ -75,7 +75,7 @@ public class FileManager : MonoBehaviour {
         if (getReturn[0] != "")
         {
             try { return float.Parse(getReturn[1]); }
-            catch (Exception) { Debug.LogError("O resultado é diferente de uma int"); return 0; }
+            catch (Exception) { Debug.LogError("O resultado é diferente de uma float"); return 0; }
         }
         return 0;
     }
@@ -93,7 +93,7 @@ public class FileManager : MonoBehaviour {
         if (getReturn[0] != "")
         {
             try { return double.Parse(getReturn[1]); }
-            catch (Exception) { Debug.LogError("O resultado é diferente de uma int"); return 0; }
+            catch (Exception) { Debug.LogError("O resultado é diferente de um double"); return 0; }
         }
         return 0;
     }
